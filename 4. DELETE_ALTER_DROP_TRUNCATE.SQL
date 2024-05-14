@@ -1,0 +1,10 @@
+DELETE FROM customer 
+WHERE ID = 3;
+
+ALTER TABLE customer
+ADD COLUMN 'CONTACT';
+
+ALTER TABLE customer 
+DROP COLUMN 'CONTACT';
+
+TRUNCATE TABLE customer;
